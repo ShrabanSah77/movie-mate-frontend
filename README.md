@@ -24,8 +24,8 @@
 1. APIs
    a. Axios
    b. Fetch API
-   c. 
-   
+   c. Storage (Local storage/ session storage/ cookies)
+
 2. Bootstrap (CSS Framework)
 3. SAAS
 4. 12 pages (login, Register, Email Verification, HomePage...)
