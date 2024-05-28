@@ -10,19 +10,31 @@
   <body>
     <form onsubmit="formSubmission(); return false;" id="contactForm">
       <label>Full Name</label>
-      <input name=" name" placeholder="John Doe" /><br />
+      <input name=" name" placeholder="John Doe" required />
+      <br />
       <label>Email</label>
-      <input type=" email" name="email" placeholder="johndoe@gmail.com" /><br />
+      <input
+        type=" email"
+        name="email"
+        placeholder="johndoe@gmail.com"
+        required
+      />
+      <br />
       <label>Choose your country</label>
-      <select>
+      <select name="country">
         <option value="">Select your country</option>
         <option value="Nepal">Nepal</option>
-        <option value="India">India</option></select
-      ><br />
-      <textarea rows="10" cols="100"></textarea>
-      <button type="submit">submit</button>
+        <option value="India">India</option>
+      </select>
+
+      <br />
+      <textarea rows="10" cols="100" name="msg" required></textarea>
+      <button type="submit">Submit</button>
       <button type="Reset">Reset</button>
     </form>
+
+    <div id="systemMsgs"></div>
+    <div class="systemMsg"></div>
 
     <script src="index.js"></script>
   </body>
