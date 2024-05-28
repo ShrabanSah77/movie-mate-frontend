@@ -8,21 +8,22 @@
   </head>
 
   <body>
-    <h1>The table element</h1>
+    <form onsubmit="formSubmission(); return false;" id="contactForm">
+      <label>Full Name</label>
+      <input name=" name" placeholder="John Doe" /><br />
+      <label>Email</label>
+      <input type=" email" name="email" placeholder="johndoe@gmail.com" /><br />
+      <label>Choose your country</label>
+      <select>
+        <option value="">Select your country</option>
+        <option value="Nepal">Nepal</option>
+        <option value="India">India</option></select
+      ><br />
+      <textarea rows="10" cols="100"></textarea>
+      <button type="submit">submit</button>
+      <button type="Reset">Reset</button>
+    </form>
 
-    <table>
-      <tr>
-        <th>Month</th>
-        <th>Savings</th>
-      </tr>
-      <tr>
-        <td>January</td>
-        <td>$100</td>
-      </tr>
-      <tr>
-        <td>February</td>
-        <td>$80</td>
-      </tr>
-    </table>
+    <script src="index.js"></script>
   </body>
 </html>
