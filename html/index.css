@@ -1,4 +1,13 @@
-* {
-  color:white;
-  background-color: black;
+h1 {
+  color: red;
 }
+
+table,
+th,
+td {
+  border: 1px solid black;
+  color: blue;
+  text-align: center;
+  margin-left: 30rem;
+}
+
