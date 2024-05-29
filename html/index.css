@@ -1,13 +1,6 @@
-h1 {
+form {
   color: red;
 }
-
-table,
-th,
-td {
-  border: 1px solid black;
-  color: blue;
-  text-align: center;
-  margin-left: 30rem;
+form.name {
+  background-color: aqua;
 }
-
