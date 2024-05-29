@@ -8,17 +8,12 @@
   </head>
 
   <body>
-    <form onsubmit="formSubmission(); return false;" id="contactForm">
+    <form onsubmit="formSubmission(); return false;" id="contactForm" required>
       <label>Full Name</label>
-      <input name=" name" placeholder="John Doe" required />
+      <input name=" name" placeholder="John Doe" />
       <br />
       <label>Email</label>
-      <input
-        type=" email"
-        name="email"
-        placeholder="johndoe@gmail.com"
-        required
-      />
+      <input type=" email" name="email" placeholder="johndoe@gmail.com" />
       <br />
       <label>Choose your country</label>
       <select name="country">
@@ -28,7 +23,7 @@
       </select>
 
       <br />
-      <textarea rows="10" cols="100" name="msg" required></textarea>
+      <textarea rows="10" cols="100" name="msg"></textarea>
       <button type="submit">Submit</button>
       <button type="Reset">Reset</button>
     </form>
