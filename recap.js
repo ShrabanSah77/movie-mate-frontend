@@ -14,10 +14,24 @@ console.log("Hello world");
 
 // updated version
 
-let person = "shraban sah";
-person = "ram";
-console.log({person});
+// In ES5
+
+// let person = "shraban sah";
+// person = "ram";
+// console.log({person});
+
+// In ES6
 
 // const person = "shraban sah";
-// person1 = "ram";
+// person1 = "ram"; (you can't define same class twice or more)
 // console.log({ person, person1 });
+
+// person = "shraban sah";
+// var person;
+// console.log({ person });
+
+// what is Hoisting?
+
+// ANS: the process whereby the interpreter appears to move
+// the declaration of functions, variables, classes, or imports to
+// the top of their scope, prior to execution of the code.
