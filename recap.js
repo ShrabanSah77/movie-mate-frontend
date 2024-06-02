@@ -53,17 +53,53 @@ switch(){
 }
 */
 
-const gen = "o";
-switch (true) {
-  case gen === "m":
-    console.log("you are male");
-    break;
-  case gen === "f":
-    console.log("you are female");
-    break;
-  case gen === "o":
-    console.log("you are third gender");
-    break;
-  default:
-    console.log("something went wrong");
+// const gen = "o";
+// switch (true) {
+//   case gen === "m":
+//     console.log("you are male");
+//     break;
+//   case gen === "f":
+//     console.log("you are female");
+//     break;
+//   case gen === "o":
+//     console.log("you are third gender");
+//     break;
+//   default:
+//     console.log("something went wrong");
+// }
+
+// Write the factorial of 5
+
+// let n = 5;
+
+// function factorial(n) {
+//   let ans = 1;
+
+//   if (n === 0) return 1;
+//   for (let i = 2; i <= n; i++) ans = ans * i;
+//   return ans;
+// }
+
+// console.log(factorial(n));
+
+// write the fibonacci series for nth Number
+
+function fib(n) {
+  let a = 0,
+    b = 1,
+    c,
+    i;
+  if (n == 0) return a;
+  for (i = 2; i <= n; i++) {
+    c = a + b;
+    a = b;
+    b = c;
+  }
+  return b;
 }
+
+// Driver code
+
+let n = 9;
+
+document.write(fib(n));
