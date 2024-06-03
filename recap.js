@@ -69,16 +69,22 @@ switch(){
 //     console.log("something went wrong.");
 // }
 
+// write a js function for (otp code has been sent to 9869800209 
+// in (98...209) form)
+
+
+
 // Write the factorial of 5
 
-// let n = 5;
-// function factorial(n) {
-//   let ans = 1;
-//   if (n === 0) return 1;
-//   for (let i = 2; i <= n; i++) ans = ans * i;
-//   return ans;
+// function factorialize(num) {
+//   if (num < 0) return -1;
+//   else if (num == 0) return 1;
+//   else {
+//     return num * factorialize(num - 1);
+//   }
 // }
-// console.log(factorial(n));
+// factorialize(5);
+// console.log(factorialize);
 
 // write the fibonacci series for nth Number
 
