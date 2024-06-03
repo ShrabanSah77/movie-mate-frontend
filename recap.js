@@ -72,13 +72,28 @@ switch(){
 // write a js function for (otp code has been sent to 9869800209
 // in (98...209) form)
 
+// We can use padStart method.
+
+// const str = "9869800209";
+// if (str.length === 10) {
+//   const last3Digits = str.slice(-3);
+//   const replacedData = last3Digits.padStart(str.length, "*");
+//   console.log({ replacedData });
+// } else {
+//   console.log("Invalid Number");
+// }
+
+// Lets try padStart and padEnd method .
+
 const str = "9869800209";
 if (str.length === 10) {
-  const last2Digits = str.slice(-2);
-  const replacedData = last2Digits.padStart(str.length, "*");
-  console.log({ replacedData });
-} else {
-  console.log("Invalid Number");
+    const first2Digits = str.slice(0,2);
+    const last3Digits = str.slice(-3);
+    const replacedData = first2Digits.padEnd(2);
+    const replacedData1 = last3Digits.padStart(8, "*");
+    console.log(`${replacedData}${replacedData1}`);
+}else{
+    console.log("Invalid numbers");
 }
 
 // Write the factorial of 5
