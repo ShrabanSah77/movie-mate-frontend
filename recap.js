@@ -72,7 +72,14 @@ switch(){
 // write a js function for (otp code has been sent to 9869800209
 // in (98...209) form)
 
-
+const str = "9869800209";
+if (str.length === 10) {
+  const last2Digits = str.slice(-2);
+  const replacedData = last2Digits.padStart(str.length, "*");
+  console.log({ replacedData });
+} else {
+  console.log("Invalid Number");
+}
 
 // Write the factorial of 5
 
