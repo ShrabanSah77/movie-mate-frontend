@@ -69,7 +69,7 @@ switch(){
 //     console.log("something went wrong.");
 // }
 
-// write a js function for (otp code has been sent to 9869800209
+// Q1. write a js function for (otp code has been sent to 9869800209
 // in (98...209) form)
 
 // We can use padStart method.
@@ -83,25 +83,47 @@ switch(){
 //   console.log("Invalid Number");
 // }
 
-// Lets try padStart and padEnd method .
+// Q2. Lets try padStart and padEnd method .
 
 // Input 12365478963215587sdhsdgjsksbfsi
 // Output 123....bfs
 
-const str = "12365478963215587sdhsdgjsksbfs";
-if (str.length === 30) {
-  const first2Digits = str.slice(0, 3);
-  const last3Digits = str.slice(-3);
-  const replacedData = first2Digits.padEnd(2);
-  const replacedData1 = last3Digits.padStart(8, "*");
-  console.log(`${replacedData}${replacedData1}`);
-} else {
-  console.log("Invalid numbers");
-}
+// const str = "12365478963215587sdhsdgjsksbfs";
+// if (str.length === 30) {
+//   const first2Digits = str.slice(0, 3);
+//   const last3Digits = str.slice(-3);
+//   const replacedData = first2Digits.padEnd(2);
+//   const replacedData1 = last3Digits.padStart(8, "*");
+//   console.log(`${replacedData}${replacedData1}`);
+// } else {
+//   console.log("Invalid numbers");
+// }
 
+// Ternary Operator
 
+// Q1.1 Firt Question in ternary Operator
+
+// const str = "9869800209";
+// const result =
+//   str.length === 10
+//     ? console.log(str.slice(-3).padStart(str.length, "*"))
+//     : console.log("Invalid Number");
+
+// Q2.1 Second question in ternary Operator
+
+// const str = "12365478963215587sdhsdgjsksbfs";
+// const result =
+//   str.length === 30
+//     ? console.log(
+//         `${str.slice(0, 3).padEnd(2)}${str.slice(-3).padStart(8, "*")}`
+//       )
+//     : console.log("Invalid numbers");
+
+// Q3. Copy url to clipboard feature
 
 // Write the factorial of 5
+
+
 
 // function factorialize(num) {
 //   if (num < 0) return -1;
