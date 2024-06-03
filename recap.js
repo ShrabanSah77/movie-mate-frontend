@@ -85,16 +85,21 @@ switch(){
 
 // Lets try padStart and padEnd method .
 
-const str = "9869800209";
-if (str.length === 10) {
-    const first2Digits = str.slice(0,2);
-    const last3Digits = str.slice(-3);
-    const replacedData = first2Digits.padEnd(2);
-    const replacedData1 = last3Digits.padStart(8, "*");
-    console.log(`${replacedData}${replacedData1}`);
-}else{
-    console.log("Invalid numbers");
+// Input 12365478963215587sdhsdgjsksbfsi
+// Output 123....bfs
+
+const str = "12365478963215587sdhsdgjsksbfs";
+if (str.length === 30) {
+  const first2Digits = str.slice(0, 3);
+  const last3Digits = str.slice(-3);
+  const replacedData = first2Digits.padEnd(2);
+  const replacedData1 = last3Digits.padStart(8, "*");
+  console.log(`${replacedData}${replacedData1}`);
+} else {
+  console.log("Invalid numbers");
 }
+
+
 
 // Write the factorial of 5
 
