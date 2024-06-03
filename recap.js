@@ -53,33 +53,31 @@ switch(){
 }
 */
 
-// const gen = "o";
+// Switch case use for conditional checking.
+// const gen = "q";
 // switch (true) {
 //   case gen === "m":
-//     console.log("you are male");
+//     console.log("you are male.");
 //     break;
 //   case gen === "f":
-//     console.log("you are female");
+//     console.log("you are female.");
 //     break;
 //   case gen === "o":
-//     console.log("you are third gender");
+//     console.log("you are third gender.");
 //     break;
 //   default:
-//     console.log("something went wrong");
+//     console.log("something went wrong.");
 // }
 
 // Write the factorial of 5
 
 // let n = 5;
-
 // function factorial(n) {
 //   let ans = 1;
-
 //   if (n === 0) return 1;
 //   for (let i = 2; i <= n; i++) ans = ans * i;
 //   return ans;
 // }
-
 // console.log(factorial(n));
 
 // write the fibonacci series for nth Number
@@ -101,5 +99,3 @@ switch(){
 // document.write(fib(n));
 
 // Driver code
-
-
