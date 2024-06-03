@@ -69,7 +69,7 @@ switch(){
 //     console.log("something went wrong.");
 // }
 
-// write a js function for (otp code has been sent to 9869800209 
+// write a js function for (otp code has been sent to 9869800209
 // in (98...209) form)
 
 
