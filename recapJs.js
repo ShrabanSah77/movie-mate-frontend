@@ -119,11 +119,19 @@ switch(){
 //       )
 //     : console.log("Invalid numbers");
 
-// Q3. Copy url to clipboard feature
+// Q3. Write a function to check fi the number is even or odd?
+
+function num(a, b) {
+  if (num / 2) {
+    return "the value is even";
+  } else {
+    return "the value is odd";
+  }
+}
+
+console.log(num);
 
 // Write the factorial of 5
-
-
 
 // function factorialize(num) {
 //   if (num < 0) return -1;
