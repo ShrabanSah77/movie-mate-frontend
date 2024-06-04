@@ -143,22 +143,21 @@ switch(){
 
 // Write a js function to check if the phone number is Nepal mobile number or not?
 
-const nepalNumber = (number) =>
-  number.length === 10 && number.match(/9[8|7]/gi) ? true : false;
+// const nepalNumber = (number) =>
+//   number.length === 10 && number.match(/9[8|7]/gi) ? true : false;
 
-console.log(nepalNumber("9869800209"));
+// console.log(nepalNumber("9869800209"));
 
 // Write the factorial of 5
 
-// function factorialize(num) {
-//   if (num < 0) return -1;
-//   else if (num == 0) return 1;
-//   else {
-//     return num * factorialize(num - 1);
-//   }
+// function factorial(n) {
+//   var res = 1,
+//     i;
+//   for (i = 2; i <= n; i++) res *= i;
+//   return res;
 // }
-// factorialize(5);
-// console.log(factorialize);
+// var num = 5;
+// document.write("Factorial of " + num + " is " + factorial(num));
 
 // write the fibonacci series for nth Number
 
