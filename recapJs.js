@@ -121,15 +121,32 @@ switch(){
 
 // Q3. Write a function to check fi the number is even or odd?
 
-function num(a, b) {
-  if (num / 2) {
-    return "the value is even";
-  } else {
-    return "the value is odd";
-  }
-}
+// const num = prompt("Enter a number");
+// if (num % 2 == 0) {
+//   console.log("The number is even");
+// } else {
+//   console.log("the number is odd");
+// }
 
-console.log(num);
+// Write a js function that convert full name to proper case
+
+// const properName = (name) =>
+//   name
+//     .split(" ")
+//     .map(
+//       (word) =>
+//         word.slice(0, 1).toUpperCase() +
+//         word.slice(1, word.length).toLowerCase()
+//     )
+//     .join(" ");
+// console.log(properName("shraban kumar sah"));
+
+// Write a js function to check if the phone number is Nepal mobile number or not?
+
+const nepalNumber = (number) =>
+  number.length === 10 && number.match(/9[8|7]/gi) ? true : false;
+
+console.log(nepalNumber("9869800209"));
 
 // Write the factorial of 5
 
