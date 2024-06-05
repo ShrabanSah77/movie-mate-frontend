@@ -1,0 +1,21 @@
+.card{
+  background-color: rgb(249, 188, 119);
+}
+
+.img-fluid {
+  height: 150px;
+  width: 150px;
+}
+
+.form-control {
+  background-color: #fff;
+}
+label,
+.forget {
+  color: black;
+  font-weight: bold;
+}
+.register{
+  color: black;
+  font-weight: bold;
+}
