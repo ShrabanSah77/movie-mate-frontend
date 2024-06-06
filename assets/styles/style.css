@@ -1,3 +1,29 @@
+/* Navigation bar */
+img, svg {
+  vertical-align: middle;
+  height: 50px;
+  width: 50px;
+}
+
+.carousel{
+  height: 800px;
+  width: 1500px;
+}
+
+.carousel.img{
+  height: 800px;
+  width: 1500px;
+}
+
+
+
+
+
+
+
+
+/* Login and Registration page */
+
 .card{
   background-color: rgb(249, 188, 119);
 }
