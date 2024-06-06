@@ -1,21 +1,21 @@
 /* Navigation bar */
-img, svg {
+.logo,
+svg {
   vertical-align: middle;
   height: 50px;
   width: 50px;
 }
-
-
-
-
-
-
-
-
-
+.navbar {
+  background-color: aqua;
+}
+.navbar .grio-0 {
+  flex-basis: 0;
+  flex-grow: 0 !important;
+  align-items: center;
+}
 /* Login and Registration page */
 
-.card{
+.card {
   background-color: rgb(249, 188, 119);
 }
 
@@ -26,13 +26,21 @@ img, svg {
 
 .form-control {
   background-color: #fff;
+  
+}
+.navbar .form-control{
+  width: 200px;
 }
 label,
 .forget {
   color: black;
   font-weight: bold;
 }
-.register{
+.register {
   color: black;
   font-weight: bold;
+}
+.carousel-inner img {
+  height: 80vh;
+  width: 100%;
 }
