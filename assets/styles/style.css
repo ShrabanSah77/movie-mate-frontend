@@ -6,13 +6,31 @@ svg {
   width: 50px;
 }
 .navbar {
-  background-color: aqua;
+  background-color: rgb(55, 54, 54);
 }
-.navbar .grio-0 {
-  flex-basis: 0;
+.navbar .grid-0 {
   flex-grow: 0 !important;
   align-items: center;
 }
+
+.navbar .form-control {
+  width: 200px;
+}
+.navbar .btn{
+  background-color: rgb(249, 188, 119);
+}
+
+ul.nav-item{
+  background-color: aqua;
+}
+
+/* Caresoul */
+
+.carousel-inner img {
+  height: 80vh;
+  width: 100%;
+}
+
 /* Login and Registration page */
 
 .card {
@@ -26,11 +44,8 @@ svg {
 
 .form-control {
   background-color: #fff;
-  
 }
-.navbar .form-control{
-  width: 200px;
-}
+
 label,
 .forget {
   color: black;
@@ -39,8 +54,4 @@ label,
 .register {
   color: black;
   font-weight: bold;
-}
-.carousel-inner img {
-  height: 80vh;
-  width: 100%;
 }
