@@ -17,7 +17,7 @@ svg {
   width: 200px;
 }
 .navbar .btn{
-  background-color: rgb(249, 188, 119);
+  background-color: rgb(244, 223, 243);
 }
 
 ul.nav-item{
@@ -43,6 +43,9 @@ ul.nav-item{
 .card {
   background-color: rgb(249, 188, 119);
 }
+.card .btn{
+  background-color: rgb(244, 223, 243);
+}
 
 .img-fluid {
   height: 160px;
@@ -61,4 +64,14 @@ label,
 .register {
   color: black;
   font-weight: bold;
+}
+
+.footer{
+  background-color: rgb(244, 223, 243);
+}
+
+.footer-img, .footer-img-top {
+  vertical-align: middle;
+  height: 50px;
+  width: 50px;
 }
