@@ -6,7 +6,7 @@ svg {
   width: 50px;
 }
 .navbar {
-  background-color: rgb(55, 54, 54);
+  background-color: rgb(223, 223, 230);
 }
 .navbar .grid-0 {
   flex-grow: 0 !important;
@@ -66,12 +66,20 @@ label,
   font-weight: bold;
 }
 
+.grid{
+  background-color: rgb(223, 223, 230);
+}
+
 .footer{
-  background-color: rgb(244, 223, 243);
+  background-color: rgb(223, 223, 230);
 }
 
 .footer-img, .footer-img-top {
   vertical-align: middle;
   height: 50px;
   width: 50px;
+}
+
+.footer{
+  margin-top: 10px;
 }
