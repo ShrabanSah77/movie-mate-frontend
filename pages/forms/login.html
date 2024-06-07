@@ -28,10 +28,10 @@
         />
         </div>
           <h1 class="text-center">Login</h1>
-          <form>
+          <form onsubmit="formSubmission(); return false;" id="contactForm">
             <div class="mb-3">
               <label class="form-label text-left">Email address</label>
-              <input type="password" class="form-control" placeholder="Enter your Email" />
+              <input type="email" class="form-control" placeholder="Enter your Email" />
             </div>
             <div class="mb-3">
               <label class="form-label">Password</label>
@@ -53,5 +53,8 @@
         </div>
       </div>
     </div>
+
+    <script src="../../html/formSubmission/index.js">
+    </script>
   </body>
 </html>
