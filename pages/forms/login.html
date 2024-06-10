@@ -11,32 +11,45 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/assets/styles/style.css">
+    <link rel="stylesheet" href="/assets/styles/style.css" />
   </head>
   <body style="background-color: rgb(244, 223, 243)">
     <!-- Layout -->
     <div class="d-flex justify-content-center align-items-center vh-100">
       <!-- Component -->
-      <div class="card shadow p-3 mb-5" style="width: 400px">
-        <div class="card-body ">
-        <div class="text-center">
-          <img
-          src="/assets/logos/movie-mate-high-resolution-logo-transparent.png"
-          class="img-fluid text-center" 
-          alt="Movie Mate logo"
-          onerror=""
-        />
-        </div>
+      <div class="card shadow p-3 mb-8" style="width: 400px">
+        <div class="card-body">
+          <div class="text-center">
+            <img
+              src="/assets/logos/movie-mate-high-resolution-logo-transparent.png"
+              class="img-fluid text-center"
+              alt="Movie Mate logo"
+              onerror=""
+            />
+          </div>
           <h1 class="text-center">Login</h1>
           <form onsubmit="formSubmission(); return false;" id="contactForm">
             <div class="mb-3">
               <label class="form-label text-left">Email address</label>
-              <input type="email" class="form-control" placeholder="Enter your Email" />
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Enter your Email"
+              />
             </div>
             <div class="mb-3">
               <label class="form-label">Password</label>
-              <input type="password" class="form-control" placeholder="Enter your password" />
-              <a class="flex d-flex flex-row-reverse forget" style="text-decoration: none; cursor: pointer;">Forget Password?</a>
+              <input
+                type="password"
+                class="form-control"
+                placeholder="Enter your password"
+              />
+              <a
+                class="flex d-flex flex-row-reverse forget"
+                style="text-decoration: none; cursor: pointer"
+                href="/pages/forms/forgetPassword.html"
+                ><u> Forget Password?</u></a
+              >
             </div>
             <button
               type="submit"
@@ -46,25 +59,17 @@
               Submit
             </button>
           </form>
-          <hr/>
+          <hr />
           <div class="mb-2 text-center register">
-            Don't you have an account?<a class="mx-3 text-info"  href="/pages/forms/register.html">Register</a>
+            Don't you have an account?<a
+              class="mx-3 text-info"
+              href="/pages/forms/register.html"
+              >Register</a
+            >
           </div>
         </div>
       </div>
     </div>
-
-    <script src="../../html/formSubmission/index.js">
-      
-
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-      crossorigin="anonymous"
-  
-
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
-      crossorigin="anonymous"
-    </script>
+    <script src="../../html/formSubmission/index.js"></script>
   </body>
 </html>
