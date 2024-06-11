@@ -56,3 +56,19 @@
 # Project
 
 - MovieMate
+
+
+
+<!-- Fetch API
+
+Fetch data from this API
+
+Axios
+
+Fetch data from this API
+https://dummyjson.com/products
+
+Advance
+Axios Instance
+TimeOut
+Abort Controller -->
