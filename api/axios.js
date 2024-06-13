@@ -1,20 +1,8 @@
 // const axios = require("axios");
 
-// const getProducts = async (url) => {
-//   try {
-//     const { data } = await axios.get(url);
-//     console.log({ data });
-//   } catch (error) {
-//     console.log(error);
-//   }
-// };
-
-// getProducts("https://dummyjson.com/products");
-
-const axios = require("axios");
 const instance = axios.create({
   baseURL: "https://dummyjson.com",
-  timeOut: 5000,
+  timeOut: 1000,
 });
 
 const getProducts = async (url) => {
@@ -22,10 +10,32 @@ const getProducts = async (url) => {
     const controller = new AbortController();
     const { data } = await instance.get(url, { signal: controller.signal }); // URL
     console.log(data);
+    // cancel the request
     controller.abort();
   } catch (e) {
     console.log(e);
   }
 };
 
-// List the product name in the Home page (index.html)
+// login
+
+const login = async () => {
+  try {
+    const email = document.getElementById("email").value;
+    const password = document.getElementById("pw").value;
+    const payload = {
+      username: email,
+      password,
+    };
+    const controller = new AbortController();
+    const { data } = await instance.post("/auth/login", payload, {
+      signal: controller.signal,
+    });
+
+    localStorage.setItem("userCredentials", )
+    // cancel the request
+    controller.abort();
+  } catch (e) {
+    console.log(e);
+  }
+};
