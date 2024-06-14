@@ -57,7 +57,32 @@
 
 - MovieMate
 
+# Storage
 
+- Every storage store data in the form of string
+
+1. Local Storage:-
+
+- Life long storage(permanent)
+- Size of data(5mb-10mb).
+- Not secure at all.
+- What do developer store? State less credentials(access_token).
+
+2. Session Storage:-
+
+- temporary storage(browser/tab close data gone)
+- Size of data(5mb-10mb).
+- It's vulnerable to (cross-site scripting)/ XSS attacks through JS file.
+- What do developer store? Sensitive information store.
+
+3. Cookies:-
+
+- Short Term storage but with expiration duration.
+- Size of data 4kb only.
+- It is vulnerable to (cross-site scripting)/ XSS attacks through JS file.
+
+Q. Can session storage be used across multiple windows or tabs?
+ANS: No, whoever created seeeion forexample, tab or window, only that has access to that session. If I have share across multiple tab/windows, we have to use Local storage.
 
 <!-- Fetch API
 
