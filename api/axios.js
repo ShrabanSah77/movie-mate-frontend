@@ -32,7 +32,10 @@ const login = async () => {
       signal: controller.signal,
     });
 
-    localStorage.setItem("userCredentials", )
+    localStorage.setItem("userCredentials", JSON.stringify(data));
+    sessionStorage.setItem("userCredentials", JSON.stringify(data));
+    const userInfo = localStorage.getItem("userCredentials");
+    document.getElementById("userDetails").innerHTML = userInfo;
     // cancel the request
     controller.abort();
   } catch (e) {
