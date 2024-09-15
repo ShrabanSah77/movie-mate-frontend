@@ -5,9 +5,10 @@ svg {
   height: 50px;
   width: 50px;
 }
-.navbar {
+/* .navbar {
   background-color: rgb(223, 223, 230);
-}
+} */
+ 
 .navbar .grid-0 {
   flex-grow: 0 !important;
   align-items: center;
@@ -20,9 +21,9 @@ svg {
   background-color: rgb(244, 223, 243);
 }
 
-ul.nav-item{
+/* ul.nav-item{
   background-color: aqua;
-}
+} */
 
 /* Caresoul */
 
