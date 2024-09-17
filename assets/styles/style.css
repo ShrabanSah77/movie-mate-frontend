@@ -5,9 +5,6 @@ svg {
   height: 50px;
   width: 50px;
 }
-/* .navbar {
-  background-color: rgb(223, 223, 230);
-} */
 
 .navbar .grid-0 {
   flex-grow: 0 !important;
@@ -20,10 +17,6 @@ svg {
 .navbar .btn {
   background-color: rgb(255, 255, 255);
 }
-
-/* ul.nav-item{
-  background-color: aqua;
-} */
 
 /* Caresoul */
 
