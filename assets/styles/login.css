@@ -1,27 +1,11 @@
 
-.container {
-  background-color: rgb(244, 223, 243);
-}
-.container .card-body {
-  background-color: white;
-}
-
-/* Login and Registration page */
-
 .card {
-  background-color: rgb(249, 188, 119);
-}
-.card .btn {
-  background-color: rgb(244, 223, 243);
+  background-color: rgb(180, 180, 180);
 }
 
 .img-fluid {
   height: 160px;
   width: 150px;
-}
-
-.form-control {
-  background-color: #fff;
 }
 
 label,
@@ -32,23 +16,4 @@ label,
 .register {
   color: black;
   font-weight: bold;
-}
-
-.grid {
-  background-color: rgb(223, 223, 230);
-}
-
-.footer {
-  background-color: rgb(223, 223, 230);
-}
-
-.footer-img,
-.footer-img-top {
-  vertical-align: middle;
-  height: 50px;
-  width: 50px;
-}
-
-.footer {
-  margin-top: 10px;
 }
