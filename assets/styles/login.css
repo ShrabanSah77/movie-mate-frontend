@@ -8,12 +8,14 @@
   width: 150px;
 }
 
+.button{
+  background-color: #565555;
+}
+
 label,
 .forget {
-  color: black;
-  font-weight: bold;
+  
 }
 .register {
-  color: black;
-  font-weight: bold;
+  color: rgb(0, 0, 0);
 }
