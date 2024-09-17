@@ -8,7 +8,7 @@ svg {
 /* .navbar {
   background-color: rgb(223, 223, 230);
 } */
- 
+
 .navbar .grid-0 {
   flex-grow: 0 !important;
   align-items: center;
@@ -17,8 +17,8 @@ svg {
 .navbar .form-control {
   width: 200px;
 }
-.navbar .btn{
-  background-color: rgb(244, 223, 243);
+.navbar .btn {
+  background-color: rgb(255, 255, 255);
 }
 
 /* ul.nav-item{
@@ -32,10 +32,10 @@ svg {
   width: 100%;
 }
 
-.container{
+.container {
   background-color: rgb(244, 223, 243);
 }
-.container .card-body{
+.container .card-body {
   background-color: white;
 }
 
@@ -44,7 +44,7 @@ svg {
 .card {
   background-color: rgb(249, 188, 119);
 }
-.card .btn{
+.card .btn {
   background-color: rgb(244, 223, 243);
 }
 
@@ -67,20 +67,21 @@ label,
   font-weight: bold;
 }
 
-.grid{
+.grid {
   background-color: rgb(223, 223, 230);
 }
 
-.footer{
+.footer {
   background-color: rgb(223, 223, 230);
 }
 
-.footer-img, .footer-img-top {
+.footer-img,
+.footer-img-top {
   vertical-align: middle;
   height: 50px;
   width: 50px;
 }
 
-.footer{
+.footer {
   margin-top: 10px;
 }
