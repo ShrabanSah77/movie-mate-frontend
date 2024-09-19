@@ -22,50 +22,48 @@ svg {
   width: 100%;
 }
 
-/* Now showing */
+/* Now showing / Comming soon */
 
 .showing {
   margin-top: 2rem;
   margin-bottom: 1rem;
-  margin-left: 4rem;
   color: aqua;
 }
 
-
+h3{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-left: 4rem;
+}
 
 .card {
+box-sizing: inherit;
+}
 
+.card-body{
+  box-sizing: content-box;
+}
+
+.card-body .card-text{
+  text-size-adjust: 3px;
 }
 
 .card .btn {
-  background-color: rgb(174, 172, 174);
+  background-color: rgb(108, 241, 241);
+  color: aliceblue;
+  
 }
 
-.container .card-body {
-  background-color: white;
-}
-
-.img-fluid {
-  height: 160px;
-  width: 150px;
-}
-
-.form-control {
-  background-color: #fff;
-}
-
-label,
-.forget {
-  color: black;
-  font-weight: bold;
-}
-.register {
-  color: black;
-  font-weight: bold;
-}
+/* Footer */
 
 .footer {
   background-color: rgb(223, 223, 230);
+  margin-top: 10px;
+  display: flex;
+}
+
+.footer .row{
+  margin-left: 5rem;
 }
 
 .footer-img,
@@ -75,6 +73,6 @@ label,
   width: 50px;
 }
 
-.footer {
-  margin-top: 10px;
+.footer-icon{
+  margin-left: 3rem;
 }
