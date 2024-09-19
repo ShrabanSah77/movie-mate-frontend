@@ -7,11 +7,13 @@
   width: 150px;
 }
 
-.form .checkbox {
-margin-top: 10px;
-margin-bottom: 10px;
+a {
+  margin-top: 20px;
+  color: black;
 }
 
-.button {
-  background-color: #565555;
+.checkbox{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 200px;
 }
