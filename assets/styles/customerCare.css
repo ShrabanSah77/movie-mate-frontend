@@ -1,18 +1,22 @@
-
 .background {
-  background-image: url(/assets/images/customerServiceBackground.jpg);
+  background: url("/assets/images/customerServiceBackground.jpg") no-repeat
+    center center/cover;
+  background-attachment: fixed;
   height: 900px;
   padding: 50px;
 }
 
-.card-body{
-    height: 800px;
-    width: 700px;
-    margin-top: 2rem;
+.card-body {
+  /* height: 800px;
+  width: 700px; */
+  margin-top: 2rem;
 }
 
 .card-img-top {
   height: 70px;
   width: 65px;
   text-align: left;
+}
+.card {
+  background: transparent;
 }
