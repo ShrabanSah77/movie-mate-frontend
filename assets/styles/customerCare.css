@@ -6,6 +6,23 @@
   font-family: "Times New Roman", Times, serif;
 }
 
+/* Navigation bar */
+.logo,
+svg {
+  vertical-align: middle;
+  height: 50px;
+  width: 50px;
+}
+
+.navbar .grid-0 {
+  flex-grow: 0 !important;
+  align-items: center;
+}
+
+.navbar .form-control {
+  width: 200px;
+}
+
 .card {
   background: transparent;
   border-color: rgb(248, 153, 219);
@@ -45,4 +62,27 @@ p {
   margin-top: 1rem;
   margin-left: 1rem;
   margin-bottom: 2rem;
+}
+
+/* Footer */
+
+.footer {
+  background-color: rgb(223, 223, 230);
+  margin-top: 10px;
+  display: flex;
+}
+
+.footer .row{
+  margin-left: 5rem;
+}
+
+.footer-img,
+.footer-img-top {
+  vertical-align: middle;
+  height: 50px;
+  width: 50px;
+}
+
+.footer-icon{
+  margin-left: 3rem;
 }
