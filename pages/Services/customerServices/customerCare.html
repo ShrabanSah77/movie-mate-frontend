@@ -14,8 +14,8 @@
   </head>
   <body>
     <div class="background">
-      <div class="d-flex justify-content-center align-items-center vh-100">
-      <div class="row col-sm-8 mx-auto">
+      <div class="d-flex justify-content-center align-items-center">
+      <div class="row col-sm-7 mx-auto">
           <div class="card shadow p-3 mb-8">
             <div class="card-body">
               <img
@@ -29,22 +29,29 @@
                 you within 24 hours.
               </h6>
               <h5>*Required</h5>
-              <div class="form">
+              <div class="form col-sm-10">
               <form>
                 <div class="mb-3 form-group">
+                  <label class="form-label text-left">Full Name</label>
                   
-                  <label class="form-label text-left"><h5>1. Full Name</h5></label>
-                  (Optional)
                   <input class="form-control"
-                    type="email"
-                    class="form-control"
                     placeholder="Enter your answer"
                   />
+
+                  <label class="form-label text-left">Mobile number</label>
+                  <input class="form-control"
+                    placeholder="Enter your answer"
+                  />
+
+                  <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+
                 </div>
-                <div class="mb-3">
-                  <label class="form-label"><h5>2. Issue type *</h5>Please tell us the issue that you are facing.</label>
-                    <select name="" id="" class="form-control">
-                    <option value=""> Select your answer </option>
+                <div class="label">
+                  <label class="form-label"><h5>Issue type</h5>Please tell us the issue that you are facing.</label>
+                  <!-- <option value=""></option> -->
+                    <select name="" id="" class="dropdown">
+                    <option value="">Select your answer</option>
                     <option value="">Complaints</option>
                     <option value="">Login Issue</option>
                     <option value="">Payments, Ticketing or Loyalty Issues</option>
@@ -53,12 +60,19 @@
                     <option value="">Other</option>
                     </select>               
                   </div>
-                  You can print a copy of your answer after you submit
-                </div>
-                
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Write your complient or suggestion here</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div> 
+                </div>      
                 <button type="submit" class="btn btn-dark">Submit</button>
                 <p>Never give out your password. <a href="">Report Issue</a></p>
               </form>
+              <hr>
+              <div class="button">
+                This content is created by movies mate entertainment. The data you submit will be direct sent to us. We are responsible for the privacy or security practices of our customers. Never give out your password, or 
+                any Microsoft Forms. AI-Powered surveys, quizzes and polls Create my our team. Our team has provided a privacy statement as to how it will use your response data. Do not provide personal or sensitive information. <a href="">Terms of use</a>
+              </div>
             </div>
           </div>
         </div>

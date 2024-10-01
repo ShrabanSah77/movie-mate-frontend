@@ -4,23 +4,32 @@
   background-attachment: fixed;
   height: 900px;
   padding: 50px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.card {
+  background: transparent;
+  border-color: rgb(248, 153, 219);
 }
 
 .card-body {
   margin-top: 2rem;
-}
-
-h6{
-  margin-top: 8rem;
+  margin-left: 40px;
 }
 
 .card-img-top {
   width: 65px;
   text-align: right;
+  margin-bottom: 5rem;
 }
-.card {
-  background: transparent;
+
+h6 {
+  margin-bottom: 2rem;
+}
+
+.form-group {
+  padding-left: 30px;
+  padding-bottom: 30px;
 }
 
 .btn-dark {
@@ -33,7 +42,7 @@ h6{
   text-align: center;
 }
 
-p{
+p {
   margin-top: 10px;
   margin-left: 1rem;
 }
