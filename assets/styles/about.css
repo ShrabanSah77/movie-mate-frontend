@@ -1,6 +1,8 @@
+
+
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
+    background-color: #f782d6;
 }
 
 header {
@@ -26,4 +28,30 @@ ul li {
 
 .btn-warning {
     font-weight: bold;
+}
+.text-orange {
+    color: #ff6a00; /* Orange shade matching the screenshot */
+}
+
+footer {
+    border-top: 1px solid #ddd;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+footer img {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.bi-facebook, .bi-instagram {
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.bi-facebook:hover, .bi-instagram:hover {
+    color: #ff6a00;
 }
